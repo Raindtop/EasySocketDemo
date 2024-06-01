@@ -1,0 +1,18 @@
+server:
+  port: 5757
+
+org:
+  apache:
+    tomcat:
+      websocket:
+        textBufferSize: 40960
+
+easysocket:
+  # 是否开启easysocket
+  open: true
+  # 运行模式
+  #   server 服务端
+  #   client 客户端
+  runType: server
+  # 服务端 连接地址
+  path: /es-ws

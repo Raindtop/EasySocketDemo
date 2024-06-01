@@ -1,0 +1,8 @@
+server:
+  port: 6667
+
+easysocket:
+  open: true
+  runType: client
+#  clientPath: ws://49.65.101.89:5757/es-ws?username=test&password=zhs135
+  clientPath: ws://127.0.0.1:5757/es-ws?username=test&password=zhs135
